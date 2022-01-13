@@ -3,7 +3,7 @@ let total=0;
 function checkSNT(x){
     let flag=true
     for (let i = 2; i <= Math.sqrt(x); i++) {
-        if(x%i===0 && x!==1){
+        if(x%i===0){
             flag=false;
             break;
         }
