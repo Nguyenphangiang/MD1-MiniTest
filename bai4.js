@@ -14,10 +14,10 @@ function totalSNT(){
         cnt++;
         if (checkSNT(cnt)){
             tongSNT+= cnt
-
         }
         if (cnt>500){
             break;
         }
     } document.write(tongSNT)
 } totalSNT()
+// kết quả ko đúng như hết time T_T
